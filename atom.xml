@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>半页的博客</title>
+  
+  <subtitle>学习笔记</subtitle>
+  <link href="https://eternallyevery.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://eternallyevery.github.io/"/>
+  <updated>2021-09-20T11:32:06.183Z</updated>
+  <id>https://eternallyevery.github.io/</id>
+  
+  <author>
+    <name>半页</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3_对matery进行修改</title>
+    <link href="https://eternallyevery.github.io/2021/09/20/3-dui-matery-jin-xing-xiu-gai/"/>
+    <id>https://eternallyevery.github.io/2021/09/20/3-dui-matery-jin-xing-xiu-gai/</id>
+    <published>2021-09-20T04:45:53.000Z</published>
+    <updated>2021-09-20T11:32:06.183Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;4-对matery主题进行修改&quot;&gt;&lt;a href=&quot;#4-对matery主题进行修改&quot; class=&quot;headerlink&quot; title=&quot;4_对matery主题进行修改&quot;&gt;&lt;/a&gt;4_对matery主题进行修改&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2_Markdown基本语法</title>
+    <link href="https://eternallyevery.github.io/2021/09/19/2-markdown-ji-ben-yu-fa/"/>
+    <id>https://eternallyevery.github.io/2021/09/19/2-markdown-ji-ben-yu-fa/</id>
+    <published>2021-09-19T08:15:01.000Z</published>
+    <updated>2021-09-20T04:49:12.895Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一级标题-空格-内容&quot;&gt;&lt;a href=&quot;#一级标题-空格-内容&quot; class=&quot;headerlink&quot; title=&quot;一级标题 #+空格+内容&quot;&gt;&lt;/a&gt;一级标题 #+空格+内容&lt;/h1&gt;&lt;h2 id=&quot;二级标题-空格-内容&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1_使用hexo搭建博客</title>
+    <link href="https://eternallyevery.github.io/2021/09/18/1-shi-yong-hexo-da-jian-bo-ke/"/>
+    <id>https://eternallyevery.github.io/2021/09/18/1-shi-yong-hexo-da-jian-bo-ke/</id>
+    <published>2021-09-18T11:10:51.000Z</published>
+    <updated>2021-09-19T08:29:19.912Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;使用hexo搭建博客&quot;&gt;&lt;a href=&quot;#使用hexo搭建博客&quot; class=&quot;headerlink&quot; title=&quot;使用hexo搭建博客&quot;&gt;&lt;/a&gt;使用hexo搭建博客&lt;/h1&gt;&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>0_使用Typora+PicGo+gitee搭建图床</title>
+    <link href="https://eternallyevery.github.io/2021/09/17/0-shi-yong-typora-picgo-gitee-da-jian-tu-chuang/"/>
+    <id>https://eternallyevery.github.io/2021/09/17/0-shi-yong-typora-picgo-gitee-da-jian-tu-chuang/</id>
+    <published>2021-09-17T10:59:59.000Z</published>
+    <updated>2021-09-19T02:57:02.008Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;关于使用Typora-PicGo-gitee搭建图床&quot;&gt;&lt;a href=&quot;#关于使用Typora-PicGo-gitee搭建图床&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>

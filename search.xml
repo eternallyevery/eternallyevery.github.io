@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>3_对matery进行修改</title>
+      <link href="/2021/09/20/3-dui-matery-jin-xing-xiu-gai/"/>
+      <url>/2021/09/20/3-dui-matery-jin-xing-xiu-gai/</url>
+      
+        <content type="html"><![CDATA[<h1 id="4-对matery主题进行修改"><a href="#4-对matery主题进行修改" class="headerlink" title="4_对matery主题进行修改"></a>4_对matery主题进行修改</h1><h2 id="1-下载Matery主题"><a href="#1-下载Matery主题" class="headerlink" title="1.下载Matery主题"></a>1.下载Matery主题</h2><p><a href="https://github.com/blinkfox/hexo-theme-matery">下载地址</a></p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920100811926.png"></p><p>将下载下来的压缩包解压缩。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920101036489.png"></p><p>将解压缩文件复制themes文件夹下。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/asdsad.png"></p><h2 id="2-修改主题"><a href="#2-修改主题" class="headerlink" title="2.修改主题"></a>2.修改主题</h2><p>阅读作者的README_CN.md文件可以得到怎么修改方法。</p><p>以下为本人阅读后对主题的修改。</p><h3 id="1-打开一级菜单"><a href="#1-打开一级菜单" class="headerlink" title="1.  打开一级菜单"></a>1.  打开一级菜单</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920102549277.png"></p><h3 id="2-注释二级菜单。"><a href="#2-注释二级菜单。" class="headerlink" title="2.  注释二级菜单。"></a>2.  注释二级菜单。</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920102623591.png"></p><h3 id="3-对首页显示的语句进行修改。"><a href="#3-对首页显示的语句进行修改。" class="headerlink" title="3. 对首页显示的语句进行修改。"></a>3. 对首页显示的语句进行修改。</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920102657510.png"></p><h3 id="4-打开主页的音乐。"><a href="#4-打开主页的音乐。" class="headerlink" title="4. 打开主页的音乐。"></a>4. 打开主页的音乐。</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920103432770.png"></p><h3 id="5-主页显示视频"><a href="#5-主页显示视频" class="headerlink" title="5. 主页显示视频"></a>5. 主页显示视频</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920104305635.png"></p><ul><li><p>enable: true 在主页显示视频</p></li><li><p>shwotitle: 显示title</p></li><li><p>title:标题</p></li><li><p>url:链接</p></li><li><p>iframeURL:例如<img src="https://gitee.com/liang-wujun/image/raw/master/img/20210920192800.png">将<img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920193145722.png">删除即可</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920104632581.png"></p></li><li><p>height:调整视频高度</p></li></ul><h3 id="6-更改网站favicon和网站logo"><a href="#6-更改网站favicon和网站logo" class="headerlink" title="6. 更改网站favicon和网站logo"></a>6. 更改网站favicon和网站logo</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920110543118.png"></p><ul><li>favicon是对网站标签页上的图片进行修改。</li><li>icon对网站logo进行修改。<a href="http://www.uugai.com/">免费制作logo网址</a></li></ul><h3 id="7-对网站主页第二个按钮进行修改"><a href="#7-对网站主页第二个按钮进行修改" class="headerlink" title="7. 对网站主页第二个按钮进行修改"></a>7. 对网站主页第二个按钮进行修改</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920112531034.png"></p><h3 id="8-对网站主页第二行信息进行修改"><a href="#8-对网站主页第二行信息进行修改" class="headerlink" title="8. 对网站主页第二行信息进行修改"></a>8. 对网站主页第二行信息进行修改</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920112627544.png"></p><h3 id="9-对文章最后的打赏页面进行修改"><a href="#9-对文章最后的打赏页面进行修改" class="headerlink" title="9. 对文章最后的打赏页面进行修改"></a>9. 对文章最后的打赏页面进行修改</h3><p>   <img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920112650243.png"></p><h3 id="10-对关于页面进行修改"><a href="#10-对关于页面进行修改" class="headerlink" title="10. 对关于页面进行修改"></a>10. 对关于页面进行修改</h3><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920112805550.png"></p><h3 id="11-增加评论功能"><a href="#11-增加评论功能" class="headerlink" title="11.增加评论功能"></a>11.增加评论功能</h3><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920112915681.png"></p><ol><li>使用valine作为评论：</li></ol><ul><li><p>注册leancloud</p><p>进入 <a href="https://www.leancloud.cn/">leancloud官网</a>点击免费试用进行注册。</p></li><li><p>注册完成后点击左上角的蓝色框内leancloud，点击创建应用。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920113836540.png"></p></li><li><p>输入应用名称，选择开发版,进行创建。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920114021946.png"></p></li><li><p>创建成功后，点击设置小齿轮，进入应用凭证</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920120045072.png"></p></li><li><p>复制好AppID和AppKey将其复制到themes主题下的_config.yml对应位置。</p></li></ul><h3 id="12-修改forkme的仓库为自己的"><a href="#12-修改forkme的仓库为自己的" class="headerlink" title="12. 修改forkme的仓库为自己的"></a>12. 修改forkme的仓库为自己的</h3><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920120358033.png"></p><h3 id="13-修改页面背景图片和文章图片"><a href="#13-修改页面背景图片和文章图片" class="headerlink" title="13. 修改页面背景图片和文章图片"></a>13. 修改页面背景图片和文章图片</h3><ol><li>在主题下的souce/medias/banner为主页背景图片</li></ol><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920120520403.png"></p><ol start="2"><li><p>在主题下的souce/medias/featureimages为文章背景图片</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920120739522.png"></p></li></ol><h3 id="14-删除主页的颜色变化效果"><a href="#14-删除主页的颜色变化效果" class="headerlink" title="14. 删除主页的颜色变化效果"></a>14. 删除主页的颜色变化效果</h3><ul><li>将source/css/matery.css中的@-webkit-keyframes rainbow和@keyframes rainbow给注释掉</li></ul><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920121132853.png"></p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920121143221.png"></p><h3 id="15-添加樱花特效"><a href="#15-添加樱花特效" class="headerlink" title="15 添加樱花特效"></a>15 添加樱花特效</h3><ul><li><p>在博客根目录的source/js/下新建一个js文件为sakura.js将<a href="https://github.com/eternallyevery/eternallyevery.github.io/blob/main/js/sakura.js">sakura.js</a>内代码复制至js文件</p></li><li><p>在主题目录下的layout/layout.js文件内添加下面面代码:</p></li><li><pre><code>&lt;script type="text/javascript"&gt;var windowWidth = $(window).width();if (windowWidth &gt; 768){    document.write('&lt;script type="text/javascript" src="/js/sakura.js"&gt;&lt;\/script&gt;')}&lt;/script</code></pre></li><li><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920122258211.png"></p></li></ul><h3 id="16-添加live2d看板娘"><a href="#16-添加live2d看板娘" class="headerlink" title="16 添加live2d看板娘"></a>16 添加live2d看板娘</h3><p>​    可以查看<a href="https://zhousiwei.gitee.io/2019/05/05/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0helper-live2d%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B%E6%8F%92%E4%BB%B6/">Hexo博客添加helper-live2d动态模型</a></p><p>​    在下载完模型后在博客根目录下新建一个live2d_models文件夹,在文件夹中使用搜索，搜索你下载的模型名称，找到后将如图所示文件复制至新建的文件夹。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920123834562.png"></p><p>需要注意的是haru_model有俩个模型，需要将箭头所指文件进行复制至你需要的模型的文件夹中(01或02)，再将其中的文件复制到新建的文件夹。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920124017293.png"></p><p>再完成对_config.yml配置后，对model下的use进行修改为你的模型名。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920124220105.png"></p><h3 id="17-更改标题和副标题及作者其他"><a href="#17-更改标题和副标题及作者其他" class="headerlink" title="17 更改标题和副标题及作者其他"></a>17 更改标题和副标题及作者其他</h3><p>如图所示:<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210920130016.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2_Markdown基本语法</title>
+      <link href="/2021/09/19/2-markdown-ji-ben-yu-fa/"/>
+      <url>/2021/09/19/2-markdown-ji-ben-yu-fa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一级标题-空格-内容"><a href="#一级标题-空格-内容" class="headerlink" title="一级标题 #+空格+内容"></a>一级标题 #+空格+内容</h1><h2 id="二级标题-空格-内容"><a href="#二级标题-空格-内容" class="headerlink" title="二级标题 ##+空格+内容"></a>二级标题 ##+空格+内容</h2><h3 id="三级标题-空格-内容"><a href="#三级标题-空格-内容" class="headerlink" title="三级标题 ###+空格+内容"></a>三级标题 ###+空格+内容</h3><h4 id="四级标题-空格-内容"><a href="#四级标题-空格-内容" class="headerlink" title="四级标题 ####+空格+内容"></a>四级标题 ####+空格+内容</h4><h5 id="五级标题-空格-内容"><a href="#五级标题-空格-内容" class="headerlink" title="五级标题 #####+空格+内容"></a>五级标题 #####+空格+内容</h5><h6 id="六级标题-空格-内容"><a href="#六级标题-空格-内容" class="headerlink" title="六级标题 ######+空格+内容"></a>六级标题 ######+空格+内容</h6><p><strong>加粗</strong>  内容左右两边加**</p><p><em>斜体</em>  内容左右两边加*</p><p><em><strong>加粗斜体</strong></em> 内容左右两边加***</p><p><u>下划线</u>  在<u></u>中写入内容加下划线</p><p><del>删除线</del>  内容左右两边加~~</p><blockquote><p>引用使用 &gt;</p><blockquote><p>引用使用 &gt;&gt;</p></blockquote><blockquote><blockquote><p>引用使用 &gt;&gt;&gt;</p></blockquote></blockquote><blockquote><blockquote><blockquote><p>引用使用 &gt;&gt;&gt;&gt;</p></blockquote></blockquote></blockquote></blockquote><p><a href="%E8%B6%85%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">超链接名</a>             [超链接名]（超链接地址）</p><p>![图片名称] (图片路径)</p><p>表格</p><table><thead><tr><th>示例</th><th>示例</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr></tbody></table><p>|示例|示例|</p><p>|–|–|</p><p>|1|2|</p><p>使用ctrl+/进入代码模式将上述表格的之间的行空格删除，可以实现表格</p><p>实现代码块：</p><pre class="line-numbers language-none"><code class="language-none">使用```加enter实现代码块 在内容左右两边加```实现代码块 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>hello</code>在内容左右两边加`实现代码片段</p><p>分割线：</p><p>使用***</p><hr><p>使用—</p><hr><p>使用 *空格 * 空格 *  </p><hr><p>有序列表：</p><p>有序列表使用数字加英文点，加上空格</p><ol><li></li><li></li><li></li><li></li></ol><p>无序列表：</p><p>无序列表使用减号，加上空格</p><ul><li></li><li></li><li></li></ul><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210919165851174.png"></p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210919162728655.png"></p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210919161722895.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>1_使用hexo搭建博客</title>
+      <link href="/2021/09/18/1-shi-yong-hexo-da-jian-bo-ke/"/>
+      <url>/2021/09/18/1-shi-yong-hexo-da-jian-bo-ke/</url>
+      
+        <content type="html"><![CDATA[<h1 id="使用hexo搭建博客"><a href="#使用hexo搭建博客" class="headerlink" title="使用hexo搭建博客"></a>使用hexo搭建博客</h1><h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><ul><li><p>安装node.js </p></li><li><p>安装Git</p></li></ul><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>使用npm安装hexo</p><p><code>npm i hexo-cli -g</code> </p><p>安装完成后，创建一个blog的文件夹，选择blog文件夹在此文件夹下进行初始化 </p><p><code>npm init</code> </p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210918215334.png"></p><p>然后执行<code>npm install</code>安装必备组件 </p><p>完成后，使用<code>hexo g</code>可以生成静态网页，使用<code>hexo s</code>可以在本地启动博客站点.</p><h2 id="github"><a href="#github" class="headerlink" title="github"></a>github</h2><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p>GitHub上新建一个以用户名.github.io为名的开源仓库</p><h3 id="配置SSH-key"><a href="#配置SSH-key" class="headerlink" title="配置SSH key"></a>配置SSH key</h3><p>通过配置ssh key来连接本地与服务器 </p><p>打开git bash输入：</p><p><code>git config --global user.name"github用户名"</code></p><p><code>git config --global user.email"github邮箱"</code></p><p>然后生成ssh key： </p><p><code>ssh-keygen -t rsa -C "github邮箱"</code></p><p>打开github在个人设置中的SSH and GPG keys点击new SSh key添加你在用户目录下.ssh/id_rsa.pub内的内容，点击add ssh key</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210919094108.png"></p><p>在本地命令行输入<code>ssh -T git@github.com</code>来测试是否成功</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210919094656.png"></p><p>如果出现successfully则表示配置成功</p><p>配置成功后对blog的根目录下的_config.yml文件进行修改，将repository修改为github项目地址。</p><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210919100118.png"></p><h2 id="使用vscode"><a href="#使用vscode" class="headerlink" title="使用vscode"></a>使用vscode</h2><p>使用vscode打开blog目录在终端上使用<code>npm i hexo-deployer-git</code>命令安装扩展，用于向git仓库发布内容。</p><p>在终端输入<code>hexo new post "hello"</code>可以在_posts文件夹下创建hello.md文件，可以在其中编写你的内容，然后输入<code>hexo g</code>生成静态网页，使用<code>hexo s</code>命令可以在本地预览效果，输入<code>hexo d </code>可以上传至GitHub上。</p><h2 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h2><p><code>hexo g</code>  //生成静态文件之public目录<br><code>hexo clean</code>  //将public文件夹删除<br><code>hexo s</code>  //启动服务预览，使用ctrl+c结束<br><code>hexo d </code> //部署站点，并上传之github  </p><blockquote><p><code>hexo new [layout] &lt; title &gt;</code><br>在站点目录下执行此命令新建一篇文章，layout参数可选，title必填。<br>Hexo 有三种默认布局：post、page 和 draft，它们分别对应不同的路径，而您自定义的其他布局和 post 相同，都将储存到 source/_posts 文件夹。</p></blockquote><table><thead><tr><th align="center">布局</th><th align="center">路径</th></tr></thead><tbody><tr><td align="center">post</td><td align="center">source/_posts</td></tr><tr><td align="center">page</td><td align="center">source</td></tr><tr><td align="center">draft</td><td align="center">source/_drafts</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>0_使用Typora+PicGo+gitee搭建图床</title>
+      <link href="/2021/09/17/0-shi-yong-typora-picgo-gitee-da-jian-tu-chuang/"/>
+      <url>/2021/09/17/0-shi-yong-typora-picgo-gitee-da-jian-tu-chuang/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关于使用Typora-PicGo-gitee搭建图床"><a href="#关于使用Typora-PicGo-gitee搭建图床" class="headerlink" title="关于使用Typora+PicGo+gitee搭建图床"></a>关于使用Typora+PicGo+gitee搭建图床</h1><h2 id="1-gitee"><a href="#1-gitee" class="headerlink" title="1.gitee"></a>1.gitee</h2><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917184439.png"><br>登录到gitee后，点击新建仓库后，跳转到详细页面，在该页面中的选项设置，可以按照下面的图片，在仓库的介绍中可以随便填写。<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917184944.png"><br>然后，点击个人主页后，点击个人设置，在个人设置的安全设置中点击私人令牌，生成新令牌.<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210917192910223.png"><br>可以按照下图来进行设置，令牌描述可以随便填，需要注意的事，该令牌创建成功后只会在成功页面显示，之后在令牌界面，不会再进行显示，需要进行复制，否则只能重新创建。<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210917193135463.png"> </p><h2 id="2-PicGo"><a href="#2-PicGo" class="headerlink" title="2.PicGo"></a>2.PicGo</h2><p><a href="https://pan.baidu.com/s/1ryZisRUUrJmK59ppxvoS4Q">PicGo</a><br>提取码：omq0<br>下载、安装完成后，打开PicGo，选择插件设置，搜索gitee,安装插件。<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917200441.png"><br>安装完成后，选择图床设置中的gitee<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917200624.png"><br>repo:中填写如下图红框中所示<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917200854.png"><br>branch:master<br>token:在这个框中填写在gitee所获取的令牌<br>path：img  会自动在仓库下创建img文件夹<br>其余可以不填<br>在PicGo设置中打开设置Server，将其中的监听端口改为36677，方便与Trpora合用。<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917204741.png"></p><h2 id="3-Typora"><a href="#3-Typora" class="headerlink" title="3.Typora"></a>3.Typora</h2><p><a href="https://pan.baidu.com/s/1Ki7K-GXqtpTyQR-EXUf3KQ">Typora</a> 提取码：euft<br>下载安装完成后，打开软件，点击文件中的偏好设置。<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917205254.png"><br>1.选择图像<br>2.插入图像时选择上传图像<br>3.上传服务中选择PicGo(app)<br>4.选择PicGo的路径，就是刚刚安装的PicGo，选择它的exe文件<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917205337.png"><br>点击验证上传选项，查看是否能够上传成功。<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917205421.png"><br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917205445.png"></p><h2 id="获取外链"><a href="#获取外链" class="headerlink" title="获取外链"></a>获取外链</h2><p>向Typora插入图片时可以获取外链。<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917205846.png"><br>可以在PicGo的相册获取外链<br><img src="https://gitee.com/liang-wujun/image/raw/master/img/20210917210035.png"> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
