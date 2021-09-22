@@ -483,7 +483,9 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="4-关于javaFx报错记录"><a href="#4-关于javaFx报错记录" class="headerlink" title="4_关于javaFx报错记录"></a>4_关于javaFx报错记录</h1><pre class="line-numbers language-none"><code class="language-none">Exception in thread "WindowsNativeRunloopThread" java.lang.NoSuchMethodError: &lt;init&gt;
+                <h1 id="4-关于javaFx报错记录"><a href="#4-关于javaFx报错记录" class="headerlink" title="4_关于javaFx报错记录"></a>4_关于javaFx报错记录</h1><pre class="line-numbers language-none"><code class="language-none">
+&gt; Task :run
+Exception in thread "WindowsNativeRunloopThread" java.lang.NoSuchMethodError: &lt;init&gt;
 	at javafx.graphics/com.sun.glass.ui.win.WinApplication.staticScreen_getScreens(Native Method)
 	at javafx.graphics/com.sun.glass.ui.Screen.initScreens(Screen.java:412)
 	at javafx.graphics/com.sun.glass.ui.Application.lambda$run$1(Application.java:152)
@@ -499,9 +501,19 @@ Exception in thread "JavaFX Application Thread" java.lang.NullPointerException
 	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
 	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>关于此段错误，百度后是由于同时安装的jdk1.8和jdk11所导致的问题，需要卸载jdk1.8，并把环境变量重新配置。并且以前使用jdk1.8的项目会编译失败。要更改版本。</p>
+ &gt; Task :run FAILED
+ FAILURE: Build failed with an exception.
+ * What went wrong:
+Execution failed for task ':run'.
+&gt; Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with non-zero exit value 1
+ * Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+ * Get more help at https://help.gradle.org
+ BUILD FAILED in 1m 15s
+4 actionable tasks: 2 executed, 2 up-to-date
+Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with non-zero exit value 1
+18:33:15: Task execution finished 'run'.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>关于此段错误，查找后是由于同时安装的jdk1.8和jdk11所导致的问题，需要卸载jdk1.8，并把环境变量重新配置。并且以前使用jdk1.8的项目会编译失败。要更改版本。</p>
 
                 
             </div>
