@@ -6,7 +6,7 @@
   <link href="https://eternallyevery.github.io/atom.xml" rel="self"/>
   
   <link href="https://eternallyevery.github.io/"/>
-  <updated>2021-09-20T11:53:59.352Z</updated>
+  <updated>2021-09-22T13:39:31.426Z</updated>
   <id>https://eternallyevery.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>4_关于javaFX报错记录</title>
+    <link href="https://eternallyevery.github.io/2021/09/22/4-guan-yu-javafx-bao-cuo-ji-lu/"/>
+    <id>https://eternallyevery.github.io/2021/09/22/4-guan-yu-javafx-bao-cuo-ji-lu/</id>
+    <published>2021-09-22T13:36:40.000Z</published>
+    <updated>2021-09-22T13:39:31.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;4-关于javaFx报错记录&quot;&gt;&lt;a href=&quot;#4-关于javaFx报错记录&quot; class=&quot;headerlink&quot; title=&quot;4_关于javaFx报错记录&quot;&gt;&lt;/a&gt;4_关于javaFx报错记录&lt;/h1&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="学习笔记" scheme="https://eternallyevery.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>3_对matery进行修改</title>
