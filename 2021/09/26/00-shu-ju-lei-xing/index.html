@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="4_关于javaFX报错记录, 半页的博客">
+    <meta name="keywords" content="00_数据类型, 半页的博客">
     <meta name="description" content="人生如逆旅，我亦是行人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>4_关于javaFX报错记录 | 半页的博客</title>
+    <title>00_数据类型 | 半页的博客</title>
     <link rel="icon" type="image/jpeg" href="https://gitee.com/liang-wujun/image/raw/master/img/1111.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">4_关于javaFX报错记录</h1>
+                    <h1 class="description center-align post-title">00_数据类型</h1>
                 </div>
             </div>
         </div>
@@ -434,8 +434,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-                                <span class="chip bg-color">学习笔记</span>
+                            <a href="/tags/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">java学习笔记</span>
                             </a>
                         
                     </div>
@@ -446,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
-                                学习笔记
+                            <a href="/categories/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                java学习笔记
                             </a>
                         
                     </div>
@@ -459,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-09-22
+                    2021-09-26
                 </div>
                 
 
@@ -483,37 +483,115 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="4-关于javaFx报错记录"><a href="#4-关于javaFx报错记录" class="headerlink" title="4_关于javaFx报错记录"></a>4_关于javaFx报错记录</h1><pre class="line-numbers language-none"><code class="language-none">
-&gt; Task :run
-Exception in thread "WindowsNativeRunloopThread" java.lang.NoSuchMethodError: &lt;init&gt;
-	at javafx.graphics/com.sun.glass.ui.win.WinApplication.staticScreen_getScreens(Native Method)
-	at javafx.graphics/com.sun.glass.ui.Screen.initScreens(Screen.java:412)
-	at javafx.graphics/com.sun.glass.ui.Application.lambda$run$1(Application.java:152)
-	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Exception in thread "JavaFX Application Thread" java.lang.NullPointerException
-	at javafx.graphics/com.sun.prism.d3d.D3DPipeline.getAdapterOrdinal(D3DPipeline.java:205)
-	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.assignScreensAdapters(QuantumToolkit.java:738)
-	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runToolkit(QuantumToolkit.java:334)
-	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$startup$10(QuantumToolkit.java:279)
-	at javafx.graphics/com.sun.glass.ui.Application.lambda$run$1(Application.java:153)
-	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:834)
- &gt; Task :run FAILED
- FAILURE: Build failed with an exception.
- * What went wrong:
-Execution failed for task ':run'.
-&gt; Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with non-zero exit value 1
- * Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
- * Get more help at https://help.gradle.org
- BUILD FAILED in 1m 15s
-4 actionable tasks: 2 executed, 2 up-to-date
-Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with non-zero exit value 1
-18:33:15: Task execution finished 'run'.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>关于此段错误，查找后是由于同时安装的jdk1.8和jdk11所导致的问题，需要卸载jdk1.8，并把环境变量重新配置。并且以前使用jdk1.8的项目会编译失败。要更改版本。</p>
+                <h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><ul>
+<li>强类型语言</li>
+<li>java的数据类型分为两大类<ul>
+<li>基本类型</li>
+<li>引用类型</li>
+</ul>
+</li>
+</ul>
+<h2 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h2><p>八进制:0开头</p>
+<p>十六进制:0开头</p>
+<p>二进制:0b开头</p>
+<h2 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h2><p>浮点数 是有限的 离散型 舍入误差 大约 接近但是不等于</p>
+<p>少用浮点数进行比较</p>
+<p>最好完全避免使用浮点数进行比较</p>
+<p>所有的字符本质上还是数字  //编码</p>
+<p>转义字符 \</p>
+<p>\t  制表符  \n换行</p>
+ <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">String</span> a2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> a3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a2 <span class="token operator">==</span> a3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> a4 <span class="token operator">=</span> <span class="token string">"hello world"</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> a5 <span class="token operator">=</span> <span class="token string">"hello world"</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a4 <span class="token operator">==</span> a5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//对象 从内存分析 </span>
+<span class="token comment">//布尔值扩展</span>
+<span class="token keyword">boolean</span> flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>flag <span class="token operator">==</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment">//新手</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span>flag<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment">//老手</span>
+<span class="token comment">//代码要精简易读</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h1 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h1><p>由于Java是强类型语言，所以在进行有些运算的时候，需要用到类型转换。</p>
+<p>转换是由低到高，运算中不同类型的数据先转换为同一类型，然后进行运算。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">128</span><span class="token punctuation">;</span>
+<span class="token keyword">byte</span> b <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">byte</span><span class="token punctuation">)</span>i<span class="token punctuation">;</span><span class="token comment">//内存溢出</span>
+<span class="token comment">//强制转换 由高到低</span>
+<span class="token comment">//(类型)变量名</span>
+<span class="token comment">//自动转换 由低到高</span>
+<span class="token comment">/**
+注意点：
+1.不能对布尔值进行转换
+2. 不能把对象类型转换为不相干的类型
+3.把高容量的转换为低容量的时候，进行强制转换
+4.转换的时候可能才能存在内存溢出，或者精度问题
+*/</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token number">27.23</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//27</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">45.45f</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//-45</span>
+<span class="token comment">//操作比较大的数字的时候,注意溢出的问题</span>
+<span class="token comment">//数字之间可以用下划线分割</span>
+<span class="token keyword">int</span> money <span class="token operator">=</span> <span class="token number">10_0000_0000</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> years <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> total <span class="token operator">=</span> money<span class="token operator">*</span>years<span class="token punctuation">;</span><span class="token comment">//溢出</span>
+<span class="token keyword">long</span> total2 <span class="token operator">=</span> money<span class="token operator">*</span>years<span class="token punctuation">;</span><span class="token comment">//在转换前就已经出现问题了</span>
+<span class="token keyword">long</span> total3 <span class="token operator">=</span> money<span class="token operator">*</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">long</span><span class="token punctuation">)</span>years<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//将一个变量转为long</span>
+  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+
+
+<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><p> 变量：变化的量</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">type varName <span class="token punctuation">[</span><span class="token operator">=</span> value<span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token punctuation">,</span>varName<span class="token punctuation">[</span><span class="token operator">=</span> value<span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token comment">//数据类型 变量名 = 值；可以使用逗号隔开来声明多个同类型的变量 （不建议使用）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h2 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h2><p>类变量</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">static</span> <span class="token keyword">int</span> i<span class="token punctuation">;</span><span class="token comment">//在方法外类中</span>
+<span class="token comment">//可以直接使用</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+
+
+<p>实例变量</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//从属于对象</span>
+<span class="token comment">//如果不自行初始化，这个类型的默认值0 0.0</span>
+<span class="token comment">//布尔值：默认值为false</span>
+<span class="token comment">//除了基本类型，其余的默认值都是null</span>
+<span class="token comment">//新建new对象</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<p>局部变量</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token punctuation">{</span>
+    <span class="token comment">//局部变量 只在方法块中有效</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h1 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h1><p>//初始化后不允许改变</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">final</span> <span class="token keyword">static</span> <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//修饰符不存在先后顺序</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h1 id="包机制"><a href="#包机制" class="headerlink" title="包机制"></a>包机制</h1><p>java提供了包机制，用于区别类名的命名空间</p>
+<p>本质就是文件夹</p>
+<p>包名定义：一般运用公司域名倒置作为域名</p>
+<p>package 文件所在文件夹</p>
+<p>import 导包</p>
+<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><p>算术运算符：+，-,*./,%,++,–</p>
+<p>赋值运算符：=</p>
+<p>关系运算符：&gt;,&lt;,&gt;=,&lt;=,==,!= instanceof</p>
+<p>逻辑运算符：&amp;&amp;,||,!</p>
+<p>位运算符：&amp;,|,^,~,&gt;&gt;,&lt;&lt;,&gt;&gt;&gt;</p>
+<p>条件运算符：? :</p>
+<p>扩展赋值运算符：+=,-+,*=,/=</p>
+<h1 id="idea快键键"><a href="#idea快键键" class="headerlink" title="idea快键键"></a>idea快键键</h1><p>ctrl+d复制当前行到下一行</p>
+<h1 id="javadoc"><a href="#javadoc" class="headerlink" title="javadoc"></a>javadoc</h1><p>@author 作者名</p>
+<p>@version 版本号</p>
+<p>@since知名需要使用的最早jdk版本</p>
+<p>@param 参数名</p>
+<p>@return 返回值情况</p>
+<p>@throws 异常抛出情况</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">javadoc -encoding UTF-8 -charset UTF-8 Doc.java//生成一份文档以便阅读 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
 
                 
             </div>
@@ -540,7 +618,7 @@ Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with 
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://eternallyevery.github.io/2021/09/22/4-guan-yu-javafx-bao-cuo-ji-lu/">https://eternallyevery.github.io/2021/09/22/4-guan-yu-javafx-bao-cuo-ji-lu/</a>
+                    <a href="https://eternallyevery.github.io/2021/09/26/00-shu-ju-lei-xing/">https://eternallyevery.github.io/2021/09/26/00-shu-ju-lei-xing/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -578,8 +656,8 @@ Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with 
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-                                    <span class="chip bg-color">学习笔记</span>
+                                <a href="/tags/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">java学习笔记</span>
                                 </a>
                             
                         </div>
@@ -1017,9 +1095,10 @@ Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with 
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/09/26/00-shu-ju-lei-xing/">
                     <div class="card-image">
@@ -1037,9 +1116,9 @@ Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with 
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-09-26
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1052,6 +1131,7 @@ Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with 
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1070,24 +1150,24 @@ Process 'command 'C:\Program Files\Java\jdk-11.0.5\bin\java.exe'' finished with 
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/09/20/3-dui-matery-jin-xing-xiu-gai/">
+                <a href="/2021/09/22/4-guan-yu-javafx-bao-cuo-ji-lu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="3_对matery进行修改">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="4_关于javaFX报错记录">
                         
-                        <span class="card-title">3_对matery进行修改</span>
+                        <span class="card-title">4_关于javaFX报错记录</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            自己修改matery的过程
+                            在配置javaFX是的报错记录
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-22
                             </span>
                         <span class="publish-author">
                             
