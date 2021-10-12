@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="00_数据类型, 半页的博客">
+    <meta name="keywords" content="04-面向对象, 半页的博客">
     <meta name="description" content="人生如逆旅，我亦是行人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>00_数据类型 | 半页的博客</title>
+    <title>04-面向对象 | 半页的博客</title>
     <link rel="icon" type="image/jpeg" href="https://gitee.com/liang-wujun/image/raw/master/img/1111.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">00_数据类型</h1>
+                    <h1 class="description center-align post-title">04-面向对象</h1>
                 </div>
             </div>
         </div>
@@ -459,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-09-26
+                    2021-10-12
                 </div>
                 
 
@@ -483,115 +483,101 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><ul>
-<li>强类型语言</li>
-<li>java的数据类型分为两大类<ul>
-<li>基本类型</li>
-<li>引用类型</li>
+                <h1 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h1><p>面向对象思想：</p>
+<ul>
+<li>物以类聚，分类的思维模式，思考问题首先会解决问题需要哪些分类，然后对这些分类进行单独思考。最后，才对某个分类下的细节进行面向过程的思索。</li>
+<li>面向对象适合处理复杂的问题，适合处理需要多人协作的问题!</li>
 </ul>
+<p>宏观上，面向对象，微观上，面向过程</p>
+<h2 id="什么是面向对象"><a href="#什么是面向对象" class="headerlink" title="什么是面向对象"></a>什么是面向对象</h2><p>本质：一类的方式组织代码，以对象的组织（封装）数据。</p>
+<p>抽象</p>
+<p>三大特性：</p>
+<ul>
+<li>封装</li>
+<li>继承</li>
+<li>多态</li>
+</ul>
+<h2 id="类与对象关系"><a href="#类与对象关系" class="headerlink" title="类与对象关系"></a>类与对象关系</h2><p>类是一种抽象的数据类型</p>
+<p>对象是抽象概念的具体实例</p>
+<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><p>该露的露，该藏的藏</p>
+<ul>
+<li>高内聚，低耦合</li>
+</ul>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><p>继承是对某一批类的抽象</p>
+<p>在java中所有类都继承object</p>
+<p>子类继承父类，会拥有父类的方法,私有无法继承</p>
+<p>super调用父类的方法和属性，除非私有；</p>
+<p>super调用父类的构造方法，必须在构造方法的第一个</p>
+<p>super必须只能出现在子类的方法或者构造方法中</p>
+<p>super和this不能同时调用构造方法</p>
+<p>super和this不同：</p>
+<p>​    代表对象不同：</p>
+<p>​        this:本身调用者这个对象</p>
+<p>​        super：代表父类对象的应用</p>
+<p>​    前提</p>
+<p>​        this：没有继承也可以使用</p>
+<p>​        super:只能在继承条件下才可以使用</p>
+<p>​    构造方法：</p>
+<p>​        this();本身的构造方法</p>
+<p>​        super();父类的构造方法</p>
+<h2 id="方法的重写"><a href="#方法的重写" class="headerlink" title="方法的重写"></a>方法的重写</h2><p>重写：需要有继承关系，子类重写父类的方法</p>
+<pre><code>        1. 方法名必须相同
+        2. 参数列表：范围可以扩大但不能缩小
+        3. 修饰符：范围可以扩大但不能缩小:public -&gt;Protected-&gt;Default-&gt;Private
+        4. 跑出的异常：范围，可以被缩小，但不能扩大: ClassNotFoundException --&gt;Exception(大)
+</code></pre>
+<p>重写：子类的方法要和父类必要一致：方法体不同!</p>
+<p>为什么需要重写：</p>
+<ol>
+<li>父类功能，子类不一等需要。或不一定满足</li>
+</ol>
+<h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2><p>  注意事项：</p>
+<ol>
+<li><p>多态是方法的多态，属性没有多态</p>
 </li>
-</ul>
-<h2 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h2><p>八进制:0开头</p>
-<p>十六进制:0开头</p>
-<p>二进制:0b开头</p>
-<h2 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h2><p>浮点数 是有限的 离散型 舍入误差 大约 接近但是不等于</p>
-<p>少用浮点数进行比较</p>
-<p>最好完全避免使用浮点数进行比较</p>
-<p>所有的字符本质上还是数字  //编码</p>
-<p>转义字符 \</p>
-<p>\t  制表符  \n换行</p>
- <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">String</span> a2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">String</span> a3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a2 <span class="token operator">==</span> a3<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">String</span> a4 <span class="token operator">=</span> <span class="token string">"hello world"</span><span class="token punctuation">;</span>
-<span class="token class-name">String</span> a5 <span class="token operator">=</span> <span class="token string">"hello world"</span><span class="token punctuation">;</span>
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a4 <span class="token operator">==</span> a5<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">//对象 从内存分析 </span>
-<span class="token comment">//布尔值扩展</span>
-<span class="token keyword">boolean</span> flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-<span class="token keyword">if</span> <span class="token punctuation">(</span>flag <span class="token operator">==</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment">//新手</span>
-<span class="token keyword">if</span><span class="token punctuation">(</span>flag<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment">//老手</span>
-<span class="token comment">//代码要精简易读</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h1 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h1><p>由于Java是强类型语言，所以在进行有些运算的时候，需要用到类型转换。</p>
-<p>转换是由低到高，运算中不同类型的数据先转换为同一类型，然后进行运算。</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">128</span><span class="token punctuation">;</span>
-<span class="token keyword">byte</span> b <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">byte</span><span class="token punctuation">)</span>i<span class="token punctuation">;</span><span class="token comment">//内存溢出</span>
-<span class="token comment">//强制转换 由高到低</span>
-<span class="token comment">//(类型)变量名</span>
-<span class="token comment">//自动转换 由低到高</span>
-<span class="token comment">/**
-注意点：
-1.不能对布尔值进行转换
-2. 不能把对象类型转换为不相干的类型
-3.把高容量的转换为低容量的时候，进行强制转换
-4.转换的时候可能才能存在内存溢出，或者精度问题
-*/</span>
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token number">27.23</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//27</span>
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">45.45f</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//-45</span>
-<span class="token comment">//操作比较大的数字的时候,注意溢出的问题</span>
-<span class="token comment">//数字之间可以用下划线分割</span>
-<span class="token keyword">int</span> money <span class="token operator">=</span> <span class="token number">10_0000_0000</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> years <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> total <span class="token operator">=</span> money<span class="token operator">*</span>years<span class="token punctuation">;</span><span class="token comment">//溢出</span>
-<span class="token keyword">long</span> total2 <span class="token operator">=</span> money<span class="token operator">*</span>years<span class="token punctuation">;</span><span class="token comment">//在转换前就已经出现问题了</span>
-<span class="token keyword">long</span> total3 <span class="token operator">=</span> money<span class="token operator">*</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">long</span><span class="token punctuation">)</span>years<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//将一个变量转为long</span>
-  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-
-
-<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><p> 变量：变化的量</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">type varName <span class="token punctuation">[</span><span class="token operator">=</span> value<span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token punctuation">,</span>varName<span class="token punctuation">[</span><span class="token operator">=</span> value<span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token comment">//数据类型 变量名 = 值；可以使用逗号隔开来声明多个同类型的变量 （不建议使用）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h2 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h2><p>类变量</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">static</span> <span class="token keyword">int</span> i<span class="token punctuation">;</span><span class="token comment">//在方法外类中</span>
-<span class="token comment">//可以直接使用</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-
-
-<p>实例变量</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//从属于对象</span>
-<span class="token comment">//如果不自行初始化，这个类型的默认值0 0.0</span>
-<span class="token comment">//布尔值：默认值为false</span>
-<span class="token comment">//除了基本类型，其余的默认值都是null</span>
-<span class="token comment">//新建new对象</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<p>局部变量</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token punctuation">{</span>
-    <span class="token comment">//局部变量 只在方法块中有效</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h1 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h1><p>//初始化后不允许改变</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">final</span> <span class="token keyword">static</span> <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//修饰符不存在先后顺序</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h1 id="包机制"><a href="#包机制" class="headerlink" title="包机制"></a>包机制</h1><p>java提供了包机制，用于区别类名的命名空间</p>
-<p>本质就是文件夹</p>
-<p>包名定义：一般运用公司域名倒置作为域名</p>
-<p>package 文件所在文件夹</p>
-<p>import 导包</p>
-<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><p>算术运算符：+，-,*./,%,++,–</p>
-<p>赋值运算符：=</p>
-<p>关系运算符：&gt;,&lt;,&gt;=,&lt;=,==,!= instanceof</p>
-<p>逻辑运算符：&amp;&amp;,||,!</p>
-<p>位运算符：&amp;,|,^,~,&gt;&gt;,&lt;&lt;,&gt;&gt;&gt;</p>
-<p>条件运算符：? :</p>
-<p>扩展赋值运算符：+=,-+,*=,/=</p>
-<h1 id="idea快键键"><a href="#idea快键键" class="headerlink" title="idea快键键"></a>idea快键键</h1><p>ctrl+d复制当前行到下一行</p>
-<h1 id="javadoc"><a href="#javadoc" class="headerlink" title="javadoc"></a>javadoc</h1><p>@author 作者名</p>
-<p>@version 版本号</p>
-<p>@since知名需要使用的最早jdk版本</p>
-<p>@param 参数名</p>
-<p>@return 返回值情况</p>
-<p>@throws 异常抛出情况</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">javadoc -encoding UTF-8 -charset UTF-8 Doc.java//生成一份文档以便阅读 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
+<li><p>父类和子类，有联系，类型转换异常！ClassCastException!</p>
+</li>
+<li><p>存在条件：继承关系,方法需要重写，父类引用指向子类对象！</p>
+</li>
+<li><p>无法被重写:static 方法 ，属于类 ，他不属于示例</p>
+<p>fianl 常量</p>
+<p>private方法</p>
+</li>
+</ol>
+<h2 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h2><h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><ol>
+<li>只有规范，自己无法写方法，专业的约束，约束和实现分离：面向接口编程</li>
+<li>接口的本质是契约</li>
+</ol>
+<p>作用:</p>
+<ol>
+<li><p>约束</p>
+</li>
+<li><p>定义一些党发，让不同的人实现</p>
+</li>
+<li><p>方法都是public abstract</p>
+</li>
+<li><p>属性都是public static final</p>
+</li>
+<li><p>接口不能被实例化，接口中没有构造方法</p>
+</li>
+<li><p>implements可以实现多个接口</p>
+</li>
+<li><p>必须要重写接口中的方法</p>
+</li>
+</ol>
+<h2 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h2><p>成员内部类</p>
+<p>静态内部类</p>
+<p>局部内部类</p>
+<p>匿名内部类</p>
+<h2 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h2><p>程序出错。</p>
+<p>程序运行中出现预期之外的错误!</p>
+<h3 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h3><h3 id="Error和Exception的区别"><a href="#Error和Exception的区别" class="headerlink" title="Error和Exception的区别"></a>Error和Exception的区别</h3><p>Error通常是灾难性的致命的错误，是程序无法控制和处理的</p>
+<p>Exception通常情况下是可以被程序处理，并且在程序中应该尽可能的去处理这些异常</p>
+<h2 id="异常处理机制"><a href="#异常处理机制" class="headerlink" title="异常处理机制"></a>异常处理机制</h2><p>抛出异常</p>
+<p>捕获异常</p>
+<p>异常处理五个关键字：</p>
+<p>try catch finally throw throws</p>
+<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>用户自定义异常类，只需要继承Exception类即可</p>
 
                 
             </div>
@@ -618,7 +604,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://eternallyevery.github.io/2021/09/26/00-shu-ju-lei-xing/">https://eternallyevery.github.io/2021/09/26/00-shu-ju-lei-xing/</a>
+                    <a href="https://eternallyevery.github.io/2021/10/12/04-mian-xiang-dui-xiang/">https://eternallyevery.github.io/2021/10/12/04-mian-xiang-dui-xiang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1099,13 +1085,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/12/01-java-fang-fa/">
+                <a href="/2021/10/12/05-gui-bian-cheng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="01-java方法">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="05-GUI编程">
                         
-                        <span class="card-title">01-java方法</span>
+                        <span class="card-title">05-GUI编程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1148,31 +1134,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/09/22/4-guan-yu-javafx-bao-cuo-ji-lu/">
+                <a href="/2021/10/12/03-shu-zu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="4_关于javaFX报错记录">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="03-数组">
                         
-                        <span class="card-title">4_关于javaFX报错记录</span>
+                        <span class="card-title">03-数组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            在配置javaFX是的报错记录
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-12
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
-                                    学习笔记
+                            <a href="/categories/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    java学习笔记
                                 </a>
                             
                             
@@ -1182,8 +1168,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">学习笔记</span>
+                    <a href="/tags/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">java学习笔记</span>
                     </a>
                     
                 </div>
