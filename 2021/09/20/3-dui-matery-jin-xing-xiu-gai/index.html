@@ -558,14 +558,14 @@
 <h3 id="15-添加樱花特效"><a href="#15-添加樱花特效" class="headerlink" title="15 添加樱花特效"></a>15 添加樱花特效</h3><ul>
 <li><p>在博客根目录的source/js/下新建一个js文件为sakura.js将<a target="_blank" rel="noopener" href="https://github.com/eternallyevery/eternallyevery.github.io/blob/main/js/sakura.js">sakura.js</a>内代码复制至js文件</p>
 </li>
-<li><p>在主题目录下的layout/layout.js文件内添加下面面代码:</p>
+<li><p>在主题目录下的layout/layout.ejs文件内添加下面面代码:</p>
 </li>
 <li><pre><code>&lt;script type="text/javascript"&gt;
 var windowWidth = $(window).width();
 if (windowWidth &gt; 768){
     document.write('&lt;script type="text/javascript" src="/js/sakura.js"&gt;&lt;\/script&gt;')
 }
-&lt;/script
+&lt;/script&gt;
 </code></pre>
 </li>
 <li><p><img src="https://gitee.com/liang-wujun/image/raw/master/img/image-20210920122258211.png"></p>
