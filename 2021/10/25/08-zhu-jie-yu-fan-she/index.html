@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="半页的博客" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="半页的博客" type="application/atom+xml">
 </head>
 
 
@@ -591,7 +591,7 @@
 <p>annotation：注解@interface</p>
 <p>primitive type : 基本数据类型</p>
 <p>void</p>
-<h2 id><a href="#" class="headerlink" title></a></h2><h2 id="获取运行时类的完整结构"><a href="#获取运行时类的完整结构" class="headerlink" title="获取运行时类的完整结构"></a>获取运行时类的完整结构</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//获取类的信息</span>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="获取运行时类的完整结构"><a href="#获取运行时类的完整结构" class="headerlink" title="获取运行时类的完整结构"></a>获取运行时类的完整结构</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//获取类的信息</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Test08</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">ClassNotFoundException</span><span class="token punctuation">,</span> <span class="token class-name">NoSuchFieldException</span><span class="token punctuation">,</span> <span class="token class-name">NoSuchMethodException</span> <span class="token punctuation">{</span>
         <span class="token class-name">Class</span> c1 <span class="token operator">=</span> <span class="token class-name">Class</span><span class="token punctuation">.</span><span class="token function">forName</span><span class="token punctuation">(</span><span class="token string">"com.liang.reflection.User"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
