@@ -6,7 +6,7 @@
   <link href="https://eternallyevery.github.io/atom.xml" rel="self"/>
   
   <link href="https://eternallyevery.github.io/"/>
-  <updated>2022-03-01T13:41:56.784Z</updated>
+  <updated>2022-03-26T06:39:23.589Z</updated>
   <id>https://eternallyevery.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>notification笔记</title>
+    <link href="https://eternallyevery.github.io/2022/03/26/notification-bi-ji/"/>
+    <id>https://eternallyevery.github.io/2022/03/26/notification-bi-ji/</id>
+    <published>2022-03-26T06:20:20.000Z</published>
+    <updated>2022-03-26T06:39:23.589Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Notification&quot;&gt;&lt;a href=&quot;#Notification&quot; class=&quot;headerlink&quot; title=&quot;Notification&quot;&gt;&lt;/a&gt;Notification&lt;/h1&gt;&lt;h2 id=&quot;1-简介&quot;&gt;&lt;a href=&quot;#1-简介&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Notification" scheme="https://eternallyevery.github.io/categories/Notification/"/>
+    
+    
+    <category term="Notification" scheme="https://eternallyevery.github.io/tags/Notification/"/>
+    
+  </entry>
   
   <entry>
     <title>5-为jupyter安装Nbextensions插件遇到的问题</title>
