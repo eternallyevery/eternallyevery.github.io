@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="10-Mybatis, 半页的博客">
+    <meta name="keywords" content="010-Mybatis, 半页的博客">
     <meta name="description" content="人生如逆旅，我亦是行人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>10-Mybatis | 半页的博客</title>
+    <title>010-Mybatis | 半页的博客</title>
     <link rel="icon" type="image/jpeg" href="https://gitee.com/liang-wujun/image/raw/master/img/1111.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">10-Mybatis</h1>
+                    <h1 class="description center-align post-title">010-Mybatis</h1>
                 </div>
             </div>
         </div>
@@ -694,7 +694,7 @@ select * from user where name like concat('%', #{name},'%' )<span aria-hidden="t
 <h3 id="3、属性-properties"><a href="#3、属性-properties" class="headerlink" title="3、属性(properties)"></a>3、属性(properties)</h3><p>我们可以通过properties属性来实现引用配置文件</p>
 <p>这些属性都是可外部配置且可动态替换的，既可以在典型的java属性文件中配置，亦可通过properties元素的子元素来传递。【db.properties】</p>
 <p>编写一个配置文件</p>
-<p><img src="/2022/06/22/10-mybatis/image-20220410212911662.png" alt="image-20220410212911662"></p>
+<p><img src="/2022/06/22/010-mybatis/image-20220410212911662.png" alt="image-20220410212911662"></p>
 <p>db.properties</p>
 <pre class="line-numbers language-properties" data-language="properties"><code class="language-properties"><span class="token attr-name">driver</span><span class="token punctuation">=</span><span class="token attr-value">com.mysql.cj.jdbc.Driver</span>
 <span class="token attr-name">url</span><span class="token punctuation">=</span><span class="token attr-value">jdbc:mysql://localhost:3306/mybatis?userSSL=true&amp;userUnicode=true&amp;characterEncoding=UTF-8</span>
@@ -788,7 +788,7 @@ public class User {}<span aria-hidden="true" class="line-numbers-rows"><span></s
 <p>mapper代表具体的业务</p>
 <h2 id="5、解决属性名和字段名不一致的问题"><a href="#5、解决属性名和字段名不一致的问题" class="headerlink" title="5、解决属性名和字段名不一致的问题"></a>5、解决属性名和字段名不一致的问题</h2><p>ResultMapper</p>
 <p>数据库中二点字段</p>
-<p><img src="/2022/06/22/10-mybatis/image-20220413210923567.png" alt="image-20220413210923567"></p>
+<p><img src="/2022/06/22/010-mybatis/image-20220413210923567.png" alt="image-20220413210923567"></p>
 <p>新建一个项目，拷贝之前，测试实体类字段不一致的情况</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span> user<span class="token punctuation">;</span>
@@ -832,7 +832,7 @@ id name password     <span aria-hidden="true" class="line-numbers-rows"><span></
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>setting</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>logImpl<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>STDOUT_LOGGING<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>settings</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<p><img src="/2022/06/22/10-mybatis/Screenshot_20220418_215709.jpg" alt="Screenshot_20220418_215709"></p>
+<p><img src="/2022/06/22/010-mybatis/Screenshot_20220418_215709.jpg" alt="Screenshot_20220418_215709"></p>
 <p>在Mybatis中具体只用哪一个日志实现，在设置中设定!</p>
 <p>STDOUT_LOGGING标准日志输出</p>
 <h3 id="6-2、Log4j"><a href="#6-2、Log4j" class="headerlink" title="6.2、Log4j"></a>6.2、Log4j</h3><ol>
@@ -878,7 +878,7 @@ id name password     <span aria-hidden="true" class="line-numbers-rows"><span></
 <li><p>log4j的使用</p>
 </li>
 </ol>
-<p><img src="/2022/06/22/10-mybatis/image-20220418222124267.png" alt="image-20220418222124267"></p>
+<p><img src="/2022/06/22/010-mybatis/image-20220418222124267.png" alt="image-20220418222124267"></p>
 <p>简单实用</p>
 <ol>
 <li>在要使用Log4j的类中，导入包import org.apache.log4j.Logger;</li>
@@ -935,7 +935,7 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
 </code></pre>
 <p>   本质：反射机制实现</p>
 <p>   底层：动态代理!</p>
-<p><img src="/2022/06/22/10-mybatis/Screenshot_20220420_163442.jpg" alt="Screenshot_20220420_163442"></p>
+<p><img src="/2022/06/22/010-mybatis/Screenshot_20220420_163442.jpg" alt="Screenshot_20220420_163442"></p>
 <p>mybatis详细的执行流程</p>
 <h3 id="8-2、CRUD"><a href="#8-2、CRUD" class="headerlink" title="8.2、CRUD"></a>8.2、CRUD</h3><p>我们可以在工具类创建的时候事项自动提交事务！</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">SqlSession</span> <span class="token function">getSqlSession</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
@@ -1364,7 +1364,7 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
 <li><p>手动清理缓存</p>
 </li>
 </ol>
-<p><img src="/2022/06/22/10-mybatis/image-20220622192946900.png"></p>
+<p><img src="/2022/06/22/010-mybatis/image-20220622192946900.png"></p>
 <p>小结：一级缓存默认是开启的，只在一次sqlsession中有效，也就是拿到连接到关闭连接这个区间段!</p>
 <p>一级缓存相当于一个map。</p>
 <h3 id="13-4、二级缓存"><a href="#13-4、二级缓存" class="headerlink" title="13.4、二级缓存"></a>13.4、二级缓存</h3><ul>
@@ -1405,7 +1405,7 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
 </ol>
 </li>
 </ol>
-<h3 id="13-5、缓存原理"><a href="#13-5、缓存原理" class="headerlink" title="13.5、缓存原理"></a>13.5、缓存原理</h3><p><img src="/2022/06/22/10-mybatis/image-20220622200245437.png"></p>
+<h3 id="13-5、缓存原理"><a href="#13-5、缓存原理" class="headerlink" title="13.5、缓存原理"></a>13.5、缓存原理</h3><p><img src="/2022/06/22/010-mybatis/image-20220622200245437.png"></p>
 <h3 id="13-6、自定义缓存-ehcache"><a href="#13-6、自定义缓存-ehcache" class="headerlink" title="13.6、自定义缓存-ehcache"></a>13.6、自定义缓存-ehcache</h3><p>Ehcache是一种广泛使用的开源Java分布式缓存。主要面向通用缓存,Java EE和轻量级容器。 </p>
 <p>要在程序中使用ehcache，先要导包！</p>
 <dependency>
@@ -1446,7 +1446,7 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://eternallyevery.github.io/2022/06/22/10-mybatis/">https://eternallyevery.github.io/2022/06/22/10-mybatis/</a>
+                    <a href="https://eternallyevery.github.io/2022/06/22/010-mybatis/">https://eternallyevery.github.io/2022/06/22/010-mybatis/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1927,13 +1927,13 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/04/25/11-git-bash/">
+                <a href="/2024/04/25/9-git-bash/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="11-git bash">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="9-git bash">
                         
-                        <span class="card-title">11-git bash</span>
+                        <span class="card-title">9-git bash</span>
                     </div>
                 </a>
                 <div class="card-content article-content">

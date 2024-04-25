@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="11-git bash, 半页的博客">
+    <meta name="keywords" content="9-git bash, 半页的博客">
     <meta name="description" content="人生如逆旅，我亦是行人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>11-git bash | 半页的博客</title>
+    <title>9-git bash | 半页的博客</title>
     <link rel="icon" type="image/jpeg" href="https://gitee.com/liang-wujun/image/raw/master/img/1111.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">11-git bash</h1>
+                    <h1 class="description center-align post-title">9-git bash</h1>
                 </div>
             </div>
         </div>
@@ -488,28 +488,28 @@
 <h2 id="1-设置用户"><a href="#1-设置用户" class="headerlink" title="1.设置用户"></a>1.设置用户</h2><p><code>git config --global user.name "Your Name"</code></p>
 <p><code>git config --global user.email "email@example.com"</code></p>
 <p>example:</p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425183820191.png" alt="image-20240425183820191"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425183820191.png" alt="image-20240425183820191"></p>
 <p>通过<code>git config --global user.name</code> <code>git config --global user.email</code>可以查询是否设置成功</p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425184030643.png" alt="image-20240425184030643"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425184030643.png" alt="image-20240425184030643"></p>
 <h2 id="2-建立SSH连接"><a href="#2-建立SSH连接" class="headerlink" title="2.建立SSH连接"></a>2.建立SSH连接</h2><h3 id="2-1-检查是否存在SSH连接"><a href="#2-1-检查是否存在SSH连接" class="headerlink" title="2.1 检查是否存在SSH连接"></a>2.1 检查是否存在SSH连接</h3><p><code>~/.shh</code>检查是否存在SSH连接</p>
 <p><strong>存在</strong>：显示 ****</p>
 <p><strong>不存在</strong>：显示 <strong>bash: /c/Users/Administrator/.ssh: No such file or directory</strong></p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425185015222.png" alt="image-20240425185015222"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425185015222.png" alt="image-20240425185015222"></p>
 <h3 id="2-2-创建SSH-key"><a href="#2-2-创建SSH-key" class="headerlink" title="2.2 创建SSH key"></a>2.2 创建SSH key</h3><p><code>ssh-keygen -t rsa -C "邮箱"</code></p>
 <p>直接一路回车便可</p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425185333651.png" alt="image-20240425185333651"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425185333651.png" alt="image-20240425185333651"></p>
 <p>上图中显示了：SSH的文件位置</p>
 <p>可以通过<code>~/.ssh ls</code>查询ssh文件位置</p>
-<h3 id="2-3-添加SSH-key-到github"><a href="#2-3-添加SSH-key-到github" class="headerlink" title="2.3 添加SSH key 到github"></a>2.3 添加SSH key 到github</h3><p><img src="/2024/04/25/11-git-bash/image-20240425185627100.png" alt="image-20240425185627100"></p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425185726964.png" alt="image-20240425185726964"></p>
+<h3 id="2-3-添加SSH-key-到github"><a href="#2-3-添加SSH-key-到github" class="headerlink" title="2.3 添加SSH key 到github"></a>2.3 添加SSH key 到github</h3><p><img src="/2024/04/25/9-git-bash/image-20240425185627100.png" alt="image-20240425185627100"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425185726964.png" alt="image-20240425185726964"></p>
 <p><strong>title</strong>可以随便填写，<strong>key</strong>为刚才生成的SSH key</p>
 <p>可以通过<code>~/.ssh ls</code>查询ssh文件位置</p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425190005109.png" alt="image-20240425190005109"></p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425185806372.png" alt="image-20240425185806372"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425190005109.png" alt="image-20240425190005109"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425185806372.png" alt="image-20240425185806372"></p>
 <p>记事本打开，然后全选复制到上图的可以中即可</p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425190040228.png" alt="image-20240425190040228"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425190040228.png" alt="image-20240425190040228"></p>
 <p>完成！</p>
-<p><img src="/2024/04/25/11-git-bash/image-20240425190206820.png" alt="image-20240425190206820"></p>
+<p><img src="/2024/04/25/9-git-bash/image-20240425190206820.png" alt="image-20240425190206820"></p>
 <h2 id="3-git相关命令"><a href="#3-git相关命令" class="headerlink" title="3. git相关命令"></a>3. git相关命令</h2><p>1、初始化本地仓库</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> init <span class="token operator">&lt;</span>directory<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -695,7 +695,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://eternallyevery.github.io/2024/04/25/11-git-bash/">https://eternallyevery.github.io/2024/04/25/11-git-bash/</a>
+                    <a href="https://eternallyevery.github.io/2024/04/25/9-git-bash/">https://eternallyevery.github.io/2024/04/25/9-git-bash/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1177,13 +1177,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2024/04/25/11-git-bash/">
+                <a href="/2024/04/25/9-git-bash/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="11-git bash">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="9-git bash">
                         
-                        <span class="card-title">11-git bash</span>
+                        <span class="card-title">9-git bash</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1227,13 +1227,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/06/22/10-mybatis/">
+                <a href="/2022/06/22/010-mybatis/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="10-Mybatis">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="010-Mybatis">
                         
-                        <span class="card-title">10-Mybatis</span>
+                        <span class="card-title">010-Mybatis</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
