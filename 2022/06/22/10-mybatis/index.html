@@ -691,10 +691,10 @@ select * from user where name like concat('%', #{name},'%' )<span aria-hidden="t
 <p><strong>不过要记住：尽管可以配置多个环境，但每个sqlsessionFactory实例只能选择一种环境。</strong></p>
 <p>学会使用配置多套运行环境！</p>
 <p>Mybatis默认的事务管理器就是jdbc，连接池：POOLED</p>
-<h3 id="3、属性-properties"><a href="#3、属性-properties" class="headerlink" title="3、属性(properties)"></a>3、属性(properties)</h3><p>我们可以通过皮肉perties属性来实现引用配置文件</p>
+<h3 id="3、属性-properties"><a href="#3、属性-properties" class="headerlink" title="3、属性(properties)"></a>3、属性(properties)</h3><p>我们可以通过properties属性来实现引用配置文件</p>
 <p>这些属性都是可外部配置且可动态替换的，既可以在典型的java属性文件中配置，亦可通过properties元素的子元素来传递。【db.properties】</p>
 <p>编写一个配置文件</p>
-<p><img src="/2022/06/22/10-mybatis/Users\lwj\Desktop\学习笔记\mybatis\mybatis.assets\image-20220410212911662.png" alt="image-20220410212911662"></p>
+<p><img src="/2022/06/22/10-mybatis/image-20220410212911662.png" alt="image-20220410212911662"></p>
 <p>db.properties</p>
 <pre class="line-numbers language-properties" data-language="properties"><code class="language-properties"><span class="token attr-name">driver</span><span class="token punctuation">=</span><span class="token attr-value">com.mysql.cj.jdbc.Driver</span>
 <span class="token attr-name">url</span><span class="token punctuation">=</span><span class="token attr-value">jdbc:mysql://localhost:3306/mybatis?userSSL=true&amp;userUnicode=true&amp;characterEncoding=UTF-8</span>
@@ -788,7 +788,7 @@ public class User {}<span aria-hidden="true" class="line-numbers-rows"><span></s
 <p>mapper代表具体的业务</p>
 <h2 id="5、解决属性名和字段名不一致的问题"><a href="#5、解决属性名和字段名不一致的问题" class="headerlink" title="5、解决属性名和字段名不一致的问题"></a>5、解决属性名和字段名不一致的问题</h2><p>ResultMapper</p>
 <p>数据库中二点字段</p>
-<p><img src="/2022/06/22/10-mybatis/Users\lwj\Desktop\学习笔记\mybatis\mybatis.assets\image-20220413210923567.png" alt="image-20220413210923567"></p>
+<p><img src="/2022/06/22/10-mybatis/image-20220413210923567.png" alt="image-20220413210923567"></p>
 <p>新建一个项目，拷贝之前，测试实体类字段不一致的情况</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span> user<span class="token punctuation">;</span>
@@ -832,7 +832,7 @@ id name password     <span aria-hidden="true" class="line-numbers-rows"><span></
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>setting</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>logImpl<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>STDOUT_LOGGING<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>settings</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<p><img src="/2022/06/22/10-mybatis/Users\lwj\Desktop\学习笔记\mybatis\mybatis.assets\Screenshot_20220418_215709.jpg" alt="Screenshot_20220418_215709"></p>
+<p><img src="/2022/06/22/10-mybatis/Screenshot_20220418_215709.jpg" alt="Screenshot_20220418_215709"></p>
 <p>在Mybatis中具体只用哪一个日志实现，在设置中设定!</p>
 <p>STDOUT_LOGGING标准日志输出</p>
 <h3 id="6-2、Log4j"><a href="#6-2、Log4j" class="headerlink" title="6.2、Log4j"></a>6.2、Log4j</h3><ol>
@@ -878,7 +878,7 @@ id name password     <span aria-hidden="true" class="line-numbers-rows"><span></
 <li><p>log4j的使用</p>
 </li>
 </ol>
-<p><img src="/2022/06/22/10-mybatis/Users\lwj\Desktop\学习笔记\mybatis\mybatis.assets\image-20220418222124267.png" alt="image-20220418222124267"></p>
+<p><img src="/2022/06/22/10-mybatis/image-20220418222124267.png" alt="image-20220418222124267"></p>
 <p>简单实用</p>
 <ol>
 <li>在要使用Log4j的类中，导入包import org.apache.log4j.Logger;</li>
@@ -935,7 +935,7 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
 </code></pre>
 <p>   本质：反射机制实现</p>
 <p>   底层：动态代理!</p>
-<p><img src="/2022/06/22/10-mybatis/Users\lwj\Desktop\学习笔记\mybatis\mybatis.assets\Screenshot_20220420_163442.jpg" alt="Screenshot_20220420_163442"></p>
+<p><img src="/2022/06/22/10-mybatis/Screenshot_20220420_163442.jpg" alt="Screenshot_20220420_163442"></p>
 <p>mybatis详细的执行流程</p>
 <h3 id="8-2、CRUD"><a href="#8-2、CRUD" class="headerlink" title="8.2、CRUD"></a>8.2、CRUD</h3><p>我们可以在工具类创建的时候事项自动提交事务！</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">SqlSession</span> <span class="token function">getSqlSession</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
@@ -1923,48 +1923,46 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/06/22/10-mybatis/">
+                <a href="/2024/04/25/11-git-bash/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="10-Mybatis">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="11-git bash">
                         
-                        <span class="card-title">10-Mybatis</span>
+                        <span class="card-title">11-git bash</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Mybatis
+                            git bash
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-22
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-04-25
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
-                                    java学习笔记
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    学习笔记
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">java学习笔记</span>
+                    <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">学习笔记</span>
                     </a>
                     
                 </div>
@@ -2151,7 +2149,7 @@ SELECT * from `user` LIMIT 3;#[0,n]<span aria-hidden="true" class="line-numbers-
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2022</span>
+                <span id="year">2019-2024</span>
             
             <span id="year">2019</span>
             <a href="/about" target="_blank">半页</a>
